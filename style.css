@@ -1,0 +1,94 @@
+.contact-page{
+    background-image: url('background-image.png');
+    font-family: "Trirong", serif;
+    
+}
+
+form{
+
+    text-align: center;
+    margin-top: 17%;
+    
+}
+
+hr { 
+    display: block;
+    /* margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto; */
+ 
+    border-width: 0.5px;
+  } 
+
+#button-submit{
+    background-color:rgb(255, 71, 65);
+    border-radius: 10%;
+}
+
+/* first page  */
+.Home-page{
+    /* background-color: rgb(255, 71, 65); */
+    /* background-color: rgb(255, 71, 65); */
+    background-image: linear-gradient(purple, pink);
+    background-repeat: no-repeat;
+    font-family: "Trirong", serif;
+    
+} 
+/* 
+#first-part{
+    display: inline;
+} */
+/* image profile  */
+img{
+    position: relative;
+    float:left
+    
+}
+
+.personal-info{
+    /* margin-left: 30%; */
+    float:left;
+    position:absolute;
+    left: 30%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  table, th, td {
+    border: 1px solid green;
+  }
+tr{
+    width: 20%;
+}
+
+  #table-1{
+      margin-top: 20%;
+      margin-left: 30%;
+  }
+
+  button{
+    background-color:rgb(255, 71, 65);
+    border-radius: 10%;
+    height: 40px;
+    width: 90px;
+    color: #FFFFFF;
+    margin-left: 35%;
+  }
+
+  #second-part{
+    margin-left:30% ;  
+    margin-top: 5%;
+  }
+
+   input , textarea{
+      width: 30%;
+      height: 30%;
+  }
