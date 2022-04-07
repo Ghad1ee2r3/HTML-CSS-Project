@@ -1,3 +1,5 @@
+
+/* second page (contact page) */
 .contact-page{
     background-image: url('background-image.png');
     font-family: "Trirong", serif;
@@ -10,17 +12,14 @@ form{
     margin-top: 17%;
     
 }
+col{
+    width: 50%;
+}
 
-hr { 
-    display: block;
-    /* margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto; */
- 
-    border-width: 0.5px;
-  } 
-
+hr{
+    border : 1px dotted rgb(134, 127, 127);
+    width: 40%;
+}
 #button-submit{
     background-color:rgb(255, 71, 65);
     border-radius: 10%;
@@ -29,16 +28,12 @@ hr {
 /* first page  */
 .Home-page{
     /* background-color: rgb(255, 71, 65); */
-    /* background-color: rgb(255, 71, 65); */
     background-image: linear-gradient(purple, pink);
     background-repeat: no-repeat;
     font-family: "Trirong", serif;
     
 } 
-/* 
-#first-part{
-    display: inline;
-} */
+
 /* image profile  */
 img{
     position: relative;
@@ -47,7 +42,7 @@ img{
 }
 
 .personal-info{
-    /* margin-left: 30%; */
+  
     float:left;
     position:absolute;
     left: 30%;
